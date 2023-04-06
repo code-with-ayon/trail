@@ -31,6 +31,4 @@ export class AppComponent {
     console.log(environment.environment_title);
     this.configuration = environment;
   }
-  
-
 }
