@@ -12,11 +12,6 @@ export class AppComponent {
   b: any ;
   sum:any;
   dif:any;
-
-  //sum = (this.a, this.b);//
-//  {
-//     this.sum = this.addition(this.a, this.b);
-//   }
   addition() {
 
     this.sum = (this.a + this.b);
@@ -36,15 +31,6 @@ export class AppComponent {
     console.log(environment.environment_title);
     this.configuration = environment;
   }
-  public value:number =0;
-  incre(){
-    this.value++;
-  }
-  decre(){
-    (this.value)===0 ? this.value-- : this.value--
-  }
-  Reset(){
-   this.value=0;
-  }
+  
 
 }
